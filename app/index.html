@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Choose Your Button</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+</head>
+<body class="p-5">
+<body class="p-5">
+  <header class="mb-4 text-center border-bottom pb-4">
+    <h1 class="display-4 fw-bold">Choose Your Button</h1>
+    <p class="lead text-muted">Poznaj różne style przycisków i zobacz, jak są zbudowane!</p>
+    
+    <div class="alert bg-body-secondary mt-4" role="alert">
+  <strong>Uwaga!</strong> Aby przyciski i ikony działały poprawnie, musisz dołączyć te dwa linki w &lt;head&gt;
+  <ul class="mt-2 text-start d-inline-block">
+    <li><code>&lt;link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"&gt;</code></li>
+    <li><code>&lt;link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet"&gt;</code></li>
+  </ul>
+</div>
+  </header>
+
+  <div class="container">
+
+    
+  <nav class="text-center">
+    <a href="#style" class="btn btn-outline-dark btn-sm m-1">Style</a>
+    <a href="#rozmiary" class="btn btn-outline-dark btn-sm m-1">Rozmiary</a>
+    <a href="#stany" class="btn btn-outline-dark btn-sm m-1">Stany</a>
+    <a href="#ikony" class="btn btn-outline-dark btn-sm m-1">Ikony</a>
+    <a href="#social" class="btn btn-outline-dark btn-sm m-1">Social</a>
+  </nav>
+
+
+  <!-- KATEGORIA: Style wizualne-->
+<h2 class="text-center mt-5 mb-4 " id="style">Style wizualne</h2>
+
+
+
+<div class="row g-4">
+  <div class="col-md-4 text-center">
+    <button class="btn btn-primary show-code" data-code='<button class="btn btn-primary">Zapisz</button>'>Zapisz</button>
+    <p class="mt-2">Główna akcja</p>
+  </div>
+
+  <div class="col-md-4 text-center">
+    <button class="btn btn-success show-code" data-code='<button class="btn btn-success">Sukces</button>'>Sukces</button>
+    <p class="mt-2">Potwierdzenie</p>
+  </div>
+
+  <div class="col-md-4 text-center">
+    <button class="btn btn-danger show-code" data-code='<button class="btn btn-danger">Usuń</button>'>Usuń</button>
+    <p class="mt-2">Działanie krytyczne</p>
+  </div>
+
+  <div class="col-md-4 text-center">
+    <button class="btn btn-warning show-code" data-code='<button class="btn btn-warning">Uwaga</button>'>Uwaga</button>
+    <p class="mt-2">Ostrzeżenie</p>
+  </div>
+
+  <div class="col-md-4 text-center">
+    <button class="btn btn-info show-code" data-code='<button class="btn btn-info">Więcej info</button>'>Więcej info</button>
+    <p class="mt-2">Informacja</p>
+  </div>
+
+  <div class="col-md-4 text-center">
+    <button class="btn btn-secondary show-code" data-code='<button class="btn btn-secondary">Anuluj</button>'>Anuluj</button>
+    <p class="mt-2">Drugorzędna akcja</p>
+  </div>
+</div>
+
+  <div class="row g-4">
+    <div class="col-md-4 text-center">
+      <button class="btn btn-outline-dark show-code" data-code='<button class="btn btn-outline-dark">Kontur</button>'>Kontur</button>
+      <p class="mt-2">Ciemny przycisk z konturem</p>
+    </div>
+    <div class="col-md-4 text-center">
+      <button class="btn btn-light show-code" data-code='<button class="btn btn-light">Jasny</button>'>Jasny</button>
+      <p class="mt-2">Jasny, neutralny przycisk</p>
+    </div>
+    <div class="col-md-4 text-center">
+      <button class="btn btn-dark show-code" data-code='<button class="btn btn-dark">Ciemny</button>'>Ciemny</button>
+      <p class="mt-2">Ciemny przycisk</p>
+    </div>
+    <div class="col-md-4 text-center">
+    <button class="btn bg-white border show-code" data-code='<button class="btn bg-white border">Biały</button>'>
+      Biały
+    </button>
+    <p class="mt-2">Przycisk z białym tłem</p>
+  </div>
+   
+ 
+
+  </div>
+
+  <!-- KATEGORIA: Rozmiar i układ -->
+  <h2 class="text-center mt-5 mb-5" id="rozmiary">Rozmiary i układ</h2>
+  <div class="row g-4">
+    <div class="col-md-4 text-center">
+      <button class="btn btn-primary btn-lg show-code" data-code='<button class="btn btn-primary btn-lg">Duży</button>'>Duży</button>
+      <p class="mt-2">Większy rozmiar przycisku</p>
+    </div>
+
+    <div class="col-md-4 text-center">
+      <button class="btn btn-success btn-sm show-code" data-code='<button class="btn btn-success btn-sm">Mały</button>'>Mały</button>
+      <p class="mt-2">Mniejszy rozmiar przycisku</p>
+    </div>
+    <div class="col-md-4 text-center">
+      <button class="btn btn-warning w-100 show-code" data-code='<button class="btn btn-warning w-100">Pełna szerokość</button>'>Pełna szerokość</button>
+      <p class="mt-2">Na całą szerokość kolumny</p>
+    </div>
+    <div class="row g-4">
+    <div class="col-md-4 text-center">
+      <div class="btn-group" role="group">
+        <button class="btn btn-outline-primary show-code" data-code='<button class="btn btn-outline-primary">Lewy</button>'>Lewy</button>
+        <button class="btn btn-outline-primary show-code" data-code='<button class="btn btn-outline-primary">Środek</button>'>Środek</button>
+        <button class="btn btn-outline-primary show-code" data-code='<button class="btn btn-outline-primary">Prawy</button>'>Prawy</button>
+      </div>
+      <p class="mt-2">Grupa przycisków</p>
+    </div>
+    <div class="col-md-4 text-center">
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary dropdown-toggle show-code" 
+      data-bs-toggle="dropdown" 
+      data-code='
+<div class="btn-group">
+  <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+    Opcje
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Akcja</a></li>
+    <li><a class="dropdown-item" href="#">Inna akcja</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="#">Coś jeszcze</a></li>
+  </ul>
+</div>'>
+      Opcje
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Akcja</a></li>
+      <li><a class="dropdown-item" href="#">Inna akcja</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" href="#">Coś jeszcze</a></li>
+    </ul>
+  </div>
+  <p class="mt-2">Dropdown menu</p>
+</div>
+
+
+
+<div class="col-md-4 text-center">
+  <button class="btn btn-primary rounded-circle show-code" style="width: 60px; height: 60px; font-size: 24px;" data-code='<button class="btn btn-primary rounded-circle" style="width: 60px; height: 60px;"><i class="bi bi-plus"></i></button>'>
+    <i class="bi bi-plus"></i>
+  </button>
+  <p class="mt-2">Okrągły przycisk (np. Dodaj)</p>
+</div>
+
+
+
+
+  </div>
+
+  <!-- KATEGORIA: Stany przycisków -->
+  <h2 class="text-center mt-5 mb-5" id="stany">Stany przycisków</h2>
+  <div class="row g-4">
+    
+    <div class="col-md-4 text-center">
+  <button class="btn btn-secondary show-code opacity-50" style="pointer-events: auto;"
+    data-code='<button class="btn btn-secondary" disabled>Wyłączony</button>'>
+    Wyłączony
+  </button>
+  <p class="mt-2">Nieaktywny przycisk</p>
+</div>
+
+    <div class="col-md-4 text-center">
+      <button type="button" class="btn btn-outline-secondary active show-code" aria-pressed="true" data-code='<button type="button" class="btn btn-outline-secondary active" aria-pressed="true">Aktywny</button>'>
+        Aktywny
+      </button>
+      <p class="mt-2">Wygląda na aktywny (toggle)</p>
+    </div>
+    <div class="col-md-4 text-center">
+      <button type="button" class="btn btn-outline-primary show-code" data-code='<button type="button" class="btn btn-outline-primary" data-bs-toggle="button" autocomplete="off">Aktywuj mnie</button>' data-bs-toggle="button" autocomplete="off">
+        Aktywuj mnie
+      </button>
+      <p class="mt-2">Przełącznik stanu</p>
+    </div>
+  </div>
+
+  <!-- KATEGORIA: Ikony i oznaczenia -->
+  <h2 class="text-center mt-5 mb-5" id="ikony">Ikony i znaczniki</h2>
+  <div class="row g-4">
+    
+    <div class="col-md-4 text-center">
+      <button class="btn btn-dark show-code" data-code='<button class="btn btn-dark"><i class="bi bi-moon-fill"></i> Tryb nocny</button>'>
+        <i class="bi bi-moon-fill"></i> Tryb nocny
+      </button>
+      <p class="mt-2">Z ikoną Bootstrap - tryb nocny</p>
+    </div>
+    <div class="col-md-4 text-center">
+      <button class="btn btn-light show-code" data-code='<button class="btn btn-light"><i class="bi bi-sun-fill"></i> Tryb dzienny</button>'>
+        <i class="bi bi-sun-fill me-1"></i> Tryb dzienny
+      </button>
+      <p class="mt-2">Z ikoną Bootstrap – tryb dzienny</p>
+    </div>
+    <div class="col-md-4 text-center">
+      <button class="btn btn-outline-secondary rounded-circle show-code" style="width: 60px; height: 60px; font-size: 24px;" data-code='<button class="btn btn-outline-secondary rounded-circle"><i class="bi bi-plus-lg"></i></button>'>
+        <i class="bi bi-plus-lg"></i>
+      </button>
+      <p class="mt-2">Duży przycisk dodaj</p>
+    </div>
+
+    <div class="col-md-4 text-center">
+  <button class="btn btn-success show-code" data-code='<button class="btn btn-success"><i class="bi bi-plus-lg"></i> Dodaj</button>'>
+    <i class="bi bi-plus-lg me-1"></i> Dodaj
+  </button>
+  <p class="mt-2">Dodaj nowy element</p>
+</div>
+
+    <div class="col-md-4 text-center">
+  <button class="btn btn-outline-primary show-code" data-code='<button class="btn btn-outline-primary"><i class="bi bi-search"></i> Szukaj</button>'>
+    <i class="bi bi-search me-1"></i> Szukaj
+  </button>
+  <p class="mt-2">Z ikoną wyszukiwania</p>
+</div>
+
+<div class="col-md-4 text-center">
+  <button class="btn btn-outline-success show-code" data-code='<button class="btn btn-outline-success"><i class="bi bi-check-lg"></i> Zatwierdź</button>'>
+    <i class="bi bi-check-lg me-1"></i> Zatwierdź
+  </button>
+  <p class="mt-2">Z ikoną zatwierdzenia (check)</p>
+</div>
+
+<div class="col-md-4 text-center">
+    <button class="btn btn-outline-secondary show-code" data-code='<button class="btn btn-outline-secondary"><i class="bi bi-arrow-clockwise"></i> Odśwież</button>'>
+      <i class="bi bi-arrow-clockwise me-1"></i> Odśwież
+    </button>
+    <p class="mt-2">Odświeżenie danych</p>
+  </div>
+  <div class="col-md-4 text-center">
+    <button class="btn btn-outline-primary show-code" data-code='<button class="btn btn-outline-primary"><i class="bi bi-pencil-fill"></i> Edytuj</button>'>
+      <i class="bi bi-pencil-fill me-1"></i> Edytuj
+    </button>
+    <p class="mt-2">Przycisk edycji</p>
+  </div>
+
+  <div class="col-md-4 text-center">
+    <button class="btn btn-outline-dark show-code" data-code='<button class="btn btn-outline-dark"><i class="bi bi-clipboard"></i> Kopiuj</button>'>
+      <i class="bi bi-clipboard me-1"></i> Kopiuj
+    </button>
+    <p class="mt-2">Skopiowanie zawartości</p>
+  </div>
+  <div class="col-md-4 text-center">
+    <button class="btn btn-outline-success show-code" data-code='<button class="btn btn-outline-success"><i class="bi bi-box-arrow-up"></i> Udostępnij</button>'>
+      <i class="bi bi-box-arrow-up me-1"></i> Udostępnij
+    </button>
+    <p class="mt-2">Eksport lub udostępnienie</p>
+  </div>
+
+  <div class="col-md-4 text-center">
+    <button class="btn btn-outline-info show-code" data-code='<button class="btn btn-outline-info"><i class="bi bi-download"></i> Pobierz</button>'>
+      <i class="bi bi-download me-1"></i> Pobierz
+    </button>
+    <p class="mt-2">Pobieranie pliku</p>
+  </div>
+
+  <div class="col-md-4 text-center">
+    <button class="btn btn-outline-danger show-code" data-code='<button class="btn btn-outline-danger"><i class="bi bi-trash-fill"></i> Usuń</button>'>
+      <i class="bi bi-trash-fill me-1"></i> Usuń
+    </button>
+    <p class="mt-2">Usuwanie elementu</p>
+  </div>
+
+  <div class="col-md-4 text-center">
+    <button class="btn btn-outline-secondary show-code" data-code='<button class="btn btn-outline-secondary"><i class="bi bi-gear-fill"></i> Ustawienia</button>'>
+      <i class="bi bi-gear-fill me-1"></i> Ustawienia
+    </button>
+    <p class="mt-2">Konfiguracja lub ustawienia</p>
+  </div>
+
+  <div class="col-md-4 text-center">
+    <button class="btn btn-outline-primary show-code" data-code='<button class="btn btn-outline-primary"><i class="bi bi-lock-fill"></i> Zaloguj</button>'>
+      <i class="bi bi-lock-fill me-1"></i> Zaloguj
+    </button>
+    <p class="mt-2">Wejście do systemu</p>
+  </div>
+
+  <div class="col-md-4 text-center">
+    <button class="btn btn-outline-dark show-code" data-code='<button class="btn btn-outline-dark"><i class="bi bi-unlock"></i> Wyloguj</button>'>
+      <i class="bi bi-unlock me-1"></i> Wyloguj
+    </button>
+    <p class="mt-2">Wyjście z konta</p>
+  </div>
+  </div>
+
+  <div class="row g-4">
+    <div class="col-md-4 text-center">
+      <button class="btn btn-outline-danger show-code" data-code='<button class="btn btn-outline-danger">Powiadomienia <span class="badge bg-danger">3</span></button>'>
+        Powiadomienia <span class="badge bg-danger">3</span>
+      </button>
+      <p class="mt-2">Z licznikiem (badge)</p>
+    </div>
+    
+    <div class="col-md-4 text-center">
+  <button class="btn btn-outline-secondary show-code opacity-50" type="button"
+    data-code='<button class="btn btn-outline-secondary" type="button" disabled><span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Trwa wysyłanie...</button>'>
+    <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+    Trwa wysyłanie...
+  </button>
+  <p class="mt-2">Z tekstem i spinnerem</p>
+</div>
+  
+<div class="col-md-4 text-center">
+    <button class="btn btn-link show-code" data-code='<button class="btn btn-link">Dowiedz się więcej</button>'>Dowiedz się więcej</button>
+    <p class="mt-2">Przycisk stylizowany na link (bez tła)</p>
+  </div>
+
+  <div class="col-md-4 text-center">
+  <a href="#" class="btn btn-outline-danger show-code" data-code='<a href="#" class="btn btn-outline-danger"><i class="bi bi-file-earmark-pdf"></i> Pobierz PDF</a>'>
+    <i class="bi bi-file-earmark-pdf me-1"></i> Pobierz PDF
+  </a>
+  <p class="mt-2">Link do pobrania jako przycisk</p>
+</div>
+
+<div class="col-md-4 text-center">
+  <a href="mailto:kontakt@example.com" class="btn btn-outline-secondary show-code" data-code='<a href="mailto:kontakt@example.com" class="btn btn-outline-secondary"><i class="bi bi-envelope"></i> Napisz do nas</a>'>
+    <i class="bi bi-envelope me-1"></i> Napisz do nas
+  </a>
+  <p class="mt-2">Przycisk do wysłania e-maila</p>
+</div>
+
+<div class="col-md-4 text-center">
+  <button class="btn btn-outline-primary show-code" onclick="navigator.clipboard.writeText(window.location.href)" data-code='<button class="btn btn-outline-primary" onclick="navigator.clipboard.writeText(window.location.href)">Kopiuj link</button>'>
+    <i class="bi bi-clipboard me-1"></i> Kopiuj link
+  </button>
+  <p class="mt-2">Kopiuje link do schowka</p>
+</div>
+
+ <div class="col-md-4 text-center">
+  <button class="btn btn-outline-info show-code" data-bs-toggle="tooltip" data-bs-placement="top" title="Szczegóły"
+  data-code='<button class="btn btn-outline-info" data-bs-toggle="tooltip" title="Szczegóły"><i class="bi bi-info-circle"></i></button>'>
+  <i class="bi bi-info-circle"></i>
+</button>
+<p class="mt-2">Z podpowiedzią (tooltip)</p>
+ </div>
+
+  <div class="col-md-4 text-center">
+    <button class="btn btn-outline-secondary rounded-circle show-code" style="width: 50px; height: 50px;" data-code='<button class="btn btn-outline-secondary rounded-circle"><i class="bi bi-three-dots"></i></button>'>
+  <i class="bi bi-three-dots"></i>
+</button>
+<p class="mt-2">Okrągły przycisk opcji</p>
+  </div>
+
+  <div class="col-md-4 text-center">
+  <div class="dropdown">
+    <button class="btn btn-outline-secondary show-code" type="button" id="menuDropdown" data-bs-toggle="dropdown" aria-expanded="false"
+      data-code='
+<div class="dropdown">
+  <button class="btn btn-outline-secondary" type="button" data-bs-toggle="dropdown">
+    <i class="bi bi-three-dots"></i>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Edytuj</a></li>
+    <li><a class="dropdown-item" href="#">Usuń</a></li>
+    <li><a class="dropdown-item" href="#">Udostępnij</a></li>
+  </ul>
+</div>'>
+      <i class="bi bi-three-dots"></i>
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="menuDropdown">
+      <li><a class="dropdown-item" href="#">Edytuj</a></li>
+      <li><a class="dropdown-item" href="#">Usuń</a></li>
+      <li><a class="dropdown-item" href="#">Udostępnij</a></li>
+    </ul>
+  </div>
+  <p class="mt-2">Dropdown menu z trzema kropkami</p>
+</div>
+
+</div>
+
+  <!-- KATEGORIA: Social media i usługi -->
+  <h2 class="text-center mt-5 mb-5" id="social">Social media i logowanie</h2>
+  <div class="row g-4">
+    <div class="col-md-4 text-center">
+      <button class="btn btn-dark show-code" data-code='<button class="btn btn-dark"><i class="bi bi-apple"></i> Apple</button>'>
+        <i class="bi bi-apple me-1"></i> Apple
+      </button>
+      <p class="mt-2">Logowanie z Apple</p>
+    </div>
+    <div class="col-md-4 text-center">
+      <button class="btn btn-primary show-code" data-code='&lt;button class=&quot;btn btn-primary&quot;&gt;&lt;i class=&quot;bi bi-facebook&quot;&gt;&lt;/i&gt; Facebook&lt;/button&gt;'>
+        <i class="bi bi-facebook me-1"></i> Facebook
+      </button>
+      <p class="mt-2">Logowanie z Facebook</p>
+    </div>
+    <div class="col-md-4 text-center">
+      <button class="btn btn-light border show-code" data-code='<button class="btn btn-light border"><img src="https://www.google.com/favicon.ico" width="16" class="me-2"> Zaloguj się przez Google</button>'>
+        <img src="https://www.google.com/favicon.ico" width="16" class="me-2">
+        Zaloguj się przez Google
+      </button>
+      <p class="mt-2">Z Google faviconą</p>
+    </div>
+    <div class="col-md-4 text-center">
+  <button class="btn btn-primary show-code" data-code='<button class="btn btn-primary"><i class="bi bi-microsoft me-1"></i> Microsoft</button>'>
+    <i class="bi bi-microsoft me-1"></i> Microsoft
+  </button>
+  <p class="mt-2">Logowanie przez Microsoft</p>
+</div>
+
+    <div class="col-md-4 text-center">
+      <button class="btn btn-dark show-code" data-code='<button class="btn btn-dark"><i class="bi bi-github"></i> GitHub</button>'>
+        <i class="bi bi-github me-1"></i> GitHub
+      </button>
+      <p class="mt-2">Logowanie z GitHub</p>
+    </div>
+    <div class="col-md-4 text-center">
+  <button class="btn btn-primary show-code" data-code='<button class="btn btn-primary"><i class="bi bi-linkedin me-1"></i> LinkedIn</button>'>
+    <i class="bi bi-linkedin me-1"></i> LinkedIn
+  </button>
+  <p class="mt-2">Logowanie przez LinkedIn</p>
+</div>
+  </div>
+</div>
+  
+  
+
+  <!-- Modal -->
+  <div class="modal fade" id="codeModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Kod przycisku</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Zamknij"></button>
+        </div>
+        <div class="modal-body">
+          <pre><code id="buttonCode"></code></pre>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+  // Obsługa modala z kodem przycisku
+  document.querySelectorAll('.show-code').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const code = btn.getAttribute('data-code');
+      document.getElementById('buttonCode').textContent = code;
+      const modal = new bootstrap.Modal(document.getElementById('codeModal'));
+      modal.show();
+    });
+  });
+
+  // Inicjalizacja tooltipów
+  const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+  const tooltipList = [...tooltipTriggerList].map(el => new bootstrap.Tooltip(el));
+</script>
+</body>
+</html>
