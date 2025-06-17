@@ -1,18 +1,25 @@
 # Choose Your Button
 
-Interaktywna strona pokazująca różne style przycisków. Kliknięcie przycisku pokazuje jego kod HTML/CSS.
+**Choose Your Button** to interaktywna galeria przycisków stworzona w HTML + Bootstrap 5. Projekt ma na celu prezentację różnych stylów przycisków, ich wyglądu, ikon oraz działania – w tym możliwość podejrzenia kodu HTML każdego z nich.
 
 ## Demo
 [LINK DO DZIAŁAJĄCEJ APLIKACJI](https://twoj-link-paas.com)
 
-## Zrzuty ekranu
-Dodaj tutaj zrzuty ekranu w folderze `screenshots/`.
 
-## Uruchomienie lokalne
-```bash
-git clone https://github.com/twoje-repo/choose-your-button.git
-cd choose-your-button
-docker-compose up --build
 ```
 
-Aplikacja będzie dostępna na: `http://localhost:8080`
+Aplikacja jest dostępna na: `http://localhost:8080`
+
+## Prezentacja interfejsu
+
+### Strona główna
+![Zrzut ekranu strony głównej](/screenshots/home.png)
+
+### Ikony i przyciski z opisem
+![Zrzut sekcji ikon](/screenshots/home2.png)
+
+### Nawigacja sekcji
+![Zrzut nawigacji](/screenshots/nav.png)
+
+### Podgląd kodu przycisku
+![Zrzut podglądu kodu](/screenshots/viev_button_code.png)
