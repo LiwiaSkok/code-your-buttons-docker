@@ -2,11 +2,12 @@
 
 **Choose Your Button** to interaktywna galeria przycisków stworzona w HTML + Bootstrap 5. Projekt ma na celu prezentację różnych stylów przycisków, ich wyglądu, ikon oraz działania – w tym możliwość podejrzenia kodu HTML każdego z nich.
 
-## Demo
-[LINK DO DZIAŁAJĄCEJ APLIKACJI](https://code-your-buttons-docker.onrender.com/)
+## Dostęp do aplikacji
 
+Aplikacja jest dostępna pod następującymi adresami:
 
-Aplikacja jest dostępna na: `http://localhost:8080`
+- Lokalnie: [`http://localhost:8080`](http://localhost:8080)
+- Publicznie (hostowana na Render): [`https://code-your-buttons-docker.onrender.com/`](https://code-your-buttons-docker.onrender.com/)
 
 ## Prezentacja interfejsu
 
