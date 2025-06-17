@@ -6,8 +6,6 @@
 [LINK DO DZIAŁAJĄCEJ APLIKACJI](https://twoj-link-paas.com)
 
 
-```
-
 Aplikacja jest dostępna na: `http://localhost:8080`
 
 ## Prezentacja interfejsu
